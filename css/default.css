@@ -1,0 +1,162 @@
+html, body {
+	margin: 0;
+	padding: 0;
+  background-color: white;
+}
+
+#container {
+  padding: 0px 0 0 0;
+}
+
+#loading {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: white;
+}
+
+
+#nav_bar i {
+  font-size: 1.7vw;
+}
+
+.big_logo img {
+  width: 100vw;
+}
+
+body #container {
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+  padding-bottom: 5px;
+}
+
+* {box-sizing:border-box}
+
+.mySlides {
+	display: none;
+}
+
+.slideshow-container {
+  max-width: 100%;
+  max-height: 100%;
+  overflow-y: hidden;
+  position: relative;
+}
+
+.slideshow-container img {
+  width: 100%;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: 2.75vw;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18pt;
+  transition: 0.6s ease;
+  background: none;
+  border: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 10px;
+}
+
+.prev {
+  left: 10px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(234, 182, 233, 0.5);
+}
+
+.order {
+  text-align: center;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.center i {
+  color: black;
+  font-size: 1.2vw;
+}
+
+.center i:hover {
+  color: #B43104;
+  transition: .5s;
+}
+
+
+img{width:100vw;
+padding-top: 50px;}
+
+.div1{align-content: center;
+padding-bottom: 10px;}
+.div2{align-content: center;
+padding-bottom: 10px;}
+.div3{a;align-content:center;
+padding-bottom: 10px;}
+
+
+footer {
+  padding-top: 10px;
+}
+
+footer img{width:100vw;
+padding-top:50px;}
+
+
+
